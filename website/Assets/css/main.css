@@ -19,7 +19,7 @@ body {
 }
 
 .main-body {
-  background: url("Assets/image/test4_1.jpg") no-repeat bottom center;
+  background: url("/website/Assets/image/test4_1.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
@@ -160,7 +160,7 @@ body {
 
 @media (max-width: 1025px) {
   .main-body {
-    background: url("Assets/image/Test1.jpg") no-repeat right right;
+    background: url("/website/Assets/image/Test1.jpg") no-repeat right right;
     background-size: cover;
     min-height: auto;
   }
@@ -193,7 +193,7 @@ body {
             justify-content: flex-start;
   }
   .main-body {
-    background: url("Assets/image/Back.svg") no-repeat;
+    background: url("/website/Assets/image/Back.svg") no-repeat;
     background-position: center;
     background-size: cover;
   }
