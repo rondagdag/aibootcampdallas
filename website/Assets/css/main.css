@@ -5,7 +5,7 @@ html {
 
 @font-face {
   font-family: Consolas;
-  src: url(/Assets/fonts/consola.ttf);
+  src: url(Assets/fonts/consola.ttf);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 .main-body {
-  background: url("/Assets/image/test4_1.jpg") no-repeat bottom center;
+  background: url("Assets/image/test4_1.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
@@ -160,7 +160,7 @@ body {
 
 @media (max-width: 1025px) {
   .main-body {
-    background: url("/Assets/image/Test1.jpg") no-repeat right right;
+    background: url("Assets/image/Test1.jpg") no-repeat right right;
     background-size: cover;
     min-height: auto;
   }
@@ -193,7 +193,7 @@ body {
             justify-content: flex-start;
   }
   .main-body {
-    background: url("/Assets/image/Back.svg") no-repeat;
+    background: url("Assets/image/Back.svg") no-repeat;
     background-position: center;
     background-size: cover;
   }
@@ -631,7 +631,7 @@ body {
   width: 235px;
   height: 300px;
   background-size: 235px 300px;
-  background-image: url(/Assets/image/1x/robot.png);
+  background-image: url(Assets/image/1x/robot.png);
   left: 25px;
   top: 40%;
   z-index: 1;
