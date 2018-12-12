@@ -36,6 +36,7 @@
   <body>
     <section class="header-nav">
       <nav class="navbar fixed-top navbar-expand-lg">
+          
         <div class="container">
           <a class="navbar-brand" href="/">AI Bootcamp</a>
           <button
@@ -87,13 +88,16 @@
     </section>
     <section class="head" id="home">
       <div class="main-body content num1">
+        <div>
+            <div id="particles-js"></div>
+        
         <div class="container">
           <div class="row ">
             <div class="offset-lg-2 col-lg-10 offset-sm-0 col-12 main-content">
               <div class="head">
                 <h1 class="type">
                   AI BOOTCAMP <br />
-                  DUBLIN
+                  DALLAS
                 </h1>
                 <div class="auto-type" id="learn" style="display: block">
                   Come learn with us...
@@ -131,7 +135,7 @@
                       Bring your laptop, leave with knowledge :)
                     </li>
                     <li>
-                      It’s a free event (but we strongly encourage a charity donation!)
+                      It’s a free event 
                     </li>
                   </ul>
                 </div>
@@ -149,496 +153,31 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="speakers" id="speakers">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Our artificially intelligent speakers</h1>
-          </div>
-
-          <!-- Ben Watt -->
-          <div class="col-12">
-            <div class="row dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/ben-watt.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Ben Watt</h2>
-                <div>
-                  Managing Director of Datalineo, a Dublin-based consulting firm and a Data Platform MVP and. 
-                  Ben specialises in Power BI and SQL Server, with interests across the growing Azure data platform stack 
-                  covering Cognitive Services, Flow, Event Hubs, Power Apps + more.
-                </div> <br>
-                <div class="links-smedia row row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/benonline/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <a
-                      href="https://twitter.com/benrebooted?lang=uk"
-                      target="_blank"
-                      ><i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#bent_watt" aria-expanded="true" aria-controls="bent_watt">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Ben_Watt">
-                    <div class="card">
-                      <div class="card-header" id="1ben_watt">
-                      </div>
-                  
-                      <div id="bent_watt" class="collapse" aria-labelledby="1ben_watt" data-parent="#Ben_Watt">
-                        <div class="card-body">
-                            <h5>Title</h5>
-                            <ul>
-                              <li>AI IoT - Raspberry Pi to Power BI, and lots in between</li>
-                            </ul>
-                            <h5>Description</h5>
-                            <ul>
-                              <li>In this session Ben will walk you through a home-made IoT project with the data ultimately landing in Power BI for visualisation. 
-                                A Raspberry Pi is the IoT device, with sensors and camera attached to give an end-to-end streaming solution. 
-                                You will see Python used to run the program and process the images. Microsoft Azure plays its part where AI via Microsoft Cognitive Services 
-                                enriches the images with facial attributes and recognition, Azure SQL stores the metadata, Azure Blob storage holds the images, 
-                                Power BI visualises the activity and Microsoft Flow sends mobile notifications. We will have a hands-on part where you can stream sensor data 
-                                right into a Power BI real-time dataset. You'll see enough to walk out and get your own project started straight away!</li>
-                            </ul>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Andrey Totev -->
-          <div class="col-12">
-            <div class="row dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/Andrey_Totey.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Andrey Totev</h2>
-                <div>
-                  Core Services Engineer at Store No. 8 <br />
-                  Lead engineer experienced in developing quality products for
-                  multi-national companies.
-                </div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/atotev/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#andrey_totev_1" aria-expanded="true" aria-controls="andrey_totev_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="andrey_totev">
-                    <div class="card">
-                      <div class="card-header" id="1_andrey_totev">
-                        
-                      </div>
-                  
-                      <div id="andrey_totev_1" class="collapse" aria-labelledby="1_andrey_totev" data-parent="#andrey_totev">
-                        <div class="card-body">
-                          <h5>Title</h5>
-                          <ul>
-                            <li>Introduction to Natural Language Processing - Experimenting with Named Entity Disambiguation</li>
-                          </ul>
-                          <h5>Description</h5>
-                          <ul>
-                            <li>The goal is to review an open source implementation of NED. We will setup the project locally and deploy a Word2vec server 
-                              to an accessible location in Azure. After this we test the solution and evaluate its correctness</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mark Allan -->
-          <div class="col-12">
-            <div class="row dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/Mark-Allan.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Mark Allan</h2>
-                <div>
-                  Freelance Developer
-                </div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/MarkXA/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <a href="https://twitter.com/MarkXA" target="_blank"
-                      ><i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <a href="https://markxa.com/" target="_blank"
-                      ><i class="far fa-clone"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Mark_Allan_1" aria-expanded="true" aria-controls="Mark_Allan_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Mark_Allan">
-                    <div class="card">
-                      <div class="card-header" id="1_Mark_Allan">
-                        
-                      </div>
-                  
-                      <div id="Mark_Allan_1" class="collapse" aria-labelledby="1_Mark_Allan" data-parent="#Mark_Allan">
-                        <div class="card-body">
-                          <h5>Title</h5>
-                          <ul>
-                            <li>Azure Cognitive Services</li>
-                          </ul>
-                          <h5>Description</h5>
-                          <ul>
-                            <li>Azure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent applications without having direct 
-                              AI or data science skills or knowledge. In this workshop we’ll put together an application that uses Azure services to provide vision and language capabilities</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Leonardo Lima -->
-          <div class="col-12">
-            <div class="row dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/Leonardo-Lima.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Leonardo Lima</h2>
-                <div>
-                  Machine learning enthusiast.
-                </div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/leonardo-lima-96988872/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Leonardo_Lima_1" aria-expanded="true" aria-controls="Leonardo_Lima_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Leonardo_Lima">
-                    <div class="card">
-                      <div class="card-header" id="1_Leonardo_Lima">
-                      </div>
-                  
-                      <div id="Leonardo_Lima_1" class="collapse" aria-labelledby="1_Leonardo_Lima" data-parent="#Leonardo_Lima">
-                        <div class="card-body">
-                          <h5>Title</h5>
-                          <ul>
-                            <li>Introduction to machine learning</li>
-                          </ul>
-                          <h5>Description</h5>
-                          <ul>
-                            <li>Getting started with classification, regression and clustering models a little bit of recommended systems. Followed by deep learning solution demos!</li>
-                          </ul>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Robert Drysdale -->
-          <div class="col-12">
-            <div class="row dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img class="img-fluid " src="Assets/image/speakers/Robert_Drysdale4.jpg" draggable="false" />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Robert Drysdale</h2>
-                <div>
-                  Senior Manager AI & Data Engineering @ Accenture The Dock
-                </div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/robdrysdale/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Robert_Drysdale_1" aria-expanded="true" aria-controls="Robert_Drysdale_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Robert_Drysdale">
-                    <div class="card">
-                      <div class="card-header" id="1_Robert_Drysdale">
-                        
-                      </div>
-                  
-                      <div id="Robert_Drysdale_1" class="collapse" aria-labelledby="1_Robert_Drysdale" data-parent="#Robert_Drysdale">
-                        <div class="card-body">
-                            <h5>Title</h5>
-                            <ul>
-                              <li>Introduction to Natural Language Processing - Experimenting with Named Entity Disambiguation</li>
-                            </ul>
-                            <h5>Description</h5>
-                            <ul>
-                              <li>The goal is to review an open source implementation of NED. We will setup the project locally and deploy a Word2vec server 
-                                to an accessible location in Azure. After this we test the solution and evaluate its correctness</li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Maks Matsveyeu -->
-          <div class="col-12">
-            <div class="row last-dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/Maks Matsveyeu.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Maks Matsveyeu</h2>
-                <div>Senior Software Engineer at Jet.com</div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/maks-matsveyeu-23a92629/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Kimserey_Lam_1" aria-expanded="true" aria-controls="Kimserey_Lam_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Kimserey_Lam">
-                    <div class="card">
-                      <div class="card-header" id="1_Kimserey_Lam">
-                        
-                      </div>
-                  
-                      <div id="Kimserey_Lam_1" class="collapse" aria-labelledby="1_Kimserey_Lam" data-parent="#Kimserey_Lam">
-                        <div class="card-body">
-                          <h5></h5>
-                          <ul>
-                            <li></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Kimserey Lam -->
-          <div class="col-12">
-            <div class="row last-dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/Kimserey Lam.jpg"
-                  draggable="false"
-                />
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-description">
-                <h2>Kimserey Lam</h2>
-                <div>Senior Software Engineer at Jet.com</div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.linkedin.com/in/kimsereylam/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <a href="https://kimsereyblog.blogspot.sg/" target="_blank"
-                      ><i class="far fa-clone"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Maks_Matsveyeu_1" aria-expanded="true" aria-controls="Maks_Matsveyeu_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Maks_Matsveyeu">
-                    <div class="card">
-                      <div class="card-header" id="1_Maks_Matsveyeu">
-                      </div>
-                  
-                      <div id="Maks_Matsveyeu_1" class="collapse" aria-labelledby="1_Maks_Matsveyeu" data-parent="#Maks_Matsveyeu">
-                        <div class="card-body">
-                          <h5>About</h5>
-                          <ul>
-                            <li>Builds software which help improve people's life!</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Allen O’Neill -->
-          <div class="col-12">
-            <div class="row last-dotted">
-              <div class="col-md-4 col-sm-12 speakers-photo">
-                <img
-                  class="img-fluid "
-                  src="Assets/image/speakers/AllenOneil1.jpg"
-                  draggable="false"
-                /> <br>
-              </div>
-              <div class="col-md-8 col-sm-12 speakers-descriptio">
-                <h2>Allen O’Neill</h2>
-                <div>
-                  Chartered Engineer, Microsoft MVP
-                </div> <br>
-                <div class="links-smedia row">
-                  <div class="col-1">
-                    <a
-                      href="https://www.c-sharpcorner.com/members/allen-oneill"
-                      target="_blank"
-                      ><i class="fab fa-connectdevelop"></i>
-                    </a>
-                  </div>
-                  <div class="col-1">
-                    <h5 class="mb-0">
-                      <button class="more_btn btn btn-link" type="button" data-toggle="collapse" data-target="#Allen_Oneil_1" aria-expanded="true" aria-controls="Allen_Oneil_1">
-                        More..
-                      </button>
-                    </h5>
-                  </div>
-                </div>
-                <div class="accordion" id="Allen_Oneil">
-                    <div class="card">
-                      <div class="card-header" id="1_Allen_Oneil">
-                        
-                      </div>
-                  
-                      <div id="Allen_Oneil_1" class="collapse" aria-labelledby="1_Allen_Oneil" data-parent="#Allen_Oneil">
-                        <div class="card-body">
-                          <h5>About</h5>
-                          <ul>
-                            <li>Allen's current obsessions are IoT, Big Data and Machine Learning. 
-                              He specialises in systems architecture, digital transformation and scaling for big data, and is currently completing a Masters in Artificial Intelligence. 
-                              In his spare time (lol!) Allen attempts to make and fix stuff, plays music (very badly), and is a ball throwing slave to his family dogs. 
-                              He speaks and shares his knowledge wherever folk will listen, and writes for CodeProject, CSharp Corner and DZone. 
-                              Aware of his privilege, as a white male in the tech world, Allen is concerned about diversity, equality & inclusion in technology and would love to talk to you 
-                              about practical ways to address the imbalance – please ask!</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
       </div>
     </section>
-
+    
     <section class="sessions-register" id="sessions">
       <div class="container">
         <div class="row schedule">
           <div class="col-12"><h1>Sessions / workshops</h1></div>
           <div class="col-12 ">
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">09:00-09:30</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">10:00-10:30</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
                 Registration - PLEASE BE EARLY !! ... we will start promptly :)
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">09:30-09:35</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">10:30-10:35</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
                 Start/Introduction
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">09:35-10:00</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">10:35-11:00</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
                   Keynote - The age of applied AI  </br>
                   <span style="color:floralwhite; font-size: 14px">
@@ -654,32 +193,30 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">10:00-10:30</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">11:00-11:30</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                Crash course in AI and introduction to AutoML <span class="time"><br>– Allen O’Neill</span>
+                Cognitive Services <span class="time"><br>– Harold Pulcher</span>
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">10:30-11.00</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">11:30-12.00</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                Real time machine intelligence at scale <span class="time"><br>– Adrian Mihai</span>
+                Crash course in AI and introduction to AutoML <span class="time"><br>– Ron Dagdag</span>
               </div>
-            </div>
+            </div>            
             <br />
             <div class="row">
-              <div class="col-12 text-center time"><strong> >> Tea-Break <<</strong></div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">11:15-12.00</div>
-              <div class="col-lg-8 col-md-6 col-sm-12 workshop">Introduction to Natural Language Processing <span class="time"><br>- Andrey Totev & Rob Drysdale</span></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">12:00-12.30</div>
+              <div class="col-lg-8 col-md-6 col-sm-12 workshop">
+                Build Mixed Reality Apps<span class="time"><br>– Ron Dagdag</span>
+              </div>
             </div><br>
             <div class="row">
               <div class="col-12 text-center time"><strong> >> Lunch <<</strong></div>
             </div>
             <br />
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 time">12:30-3pm</div>
+              <div class="col-lg-4 col-md-6 col-sm-12 time">1:00-3:00 pm</div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
                 <strong>Afternoon workshops</strong>
               </div>
@@ -689,19 +226,19 @@
 
               <div class="col-lg-4 col-md-6 col-sm-12 time"></div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                1 - AI IoT 'all of the things - <span class="time">Ben Watt</span> </br></br>
+                1 - Building a Computer Vision Application Leveraging the Custom Vision Service <span class="time"></span> </br></br>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 time"></div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                2 - Recommenders, Clustering and <br />classification - hands on - <span class="time">Leanardo Lima</span> </br></br>
+                2 - Automated ML - Energy Demand Forecasting<span class="time"></span> </br></br>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 time"></div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                3 - Azure Cognitive Services - <span class="time">Mark Allan</span> </br></br>
+                3 - Intro to Windows Mixed Reality <span class="time"></span> </br></br>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 time"></div>
               <div class="col-lg-8 col-md-6 col-sm-12 workshop">
-                4 - NLP - Named Entity Disambiguation experiments in Azure - <span class="time">Robert Drysdale &amp; Andrey Totev</span> </br></br>
+                4 - Mixed Reality and Azure Machine Learning <span class="time"></span> </br></br>
               </div>              
             </div>
           </div>
@@ -798,165 +335,7 @@
         </div>
       </div>
     </section>
-
-    <section class="register">
-      <div
-        class="form-link num2 d-flex justify-content-center align-items-center"
-        id="form-link"
-      >
-        <div id="particles-js"></div>
-        <div class="container">
-          <div class="row d-flex justify-content-center p-3 register-form">
-            <div class="col-12">
-              <!-- <h1>Register</h1> -->
-            </div>
-            <div class="col-lg-6 col-sm-8 main-form-register robot">
-              <div class="try">
-              <div class="row d-flex justify-content-center align-content-center align-items-center">
-                <div class="col-md-6 col-sm-12 d-flex justify-content-center"><img class="img-fluid"  src="Assets/image/LogoSmall.jpg" draggable="false"></div>
-                <div class="col-md-6 col-sm-12 d-flex justify-content-center"><img class="img-fluid simon-logo" src="Assets/image/simonlogo.png" draggable="false"></div>
-              </div> <br>
-           
-              <p>All tickets are free, but we ask you if you can, to please DIG DEEP AND DONATE to our chosen charities, this year being the Dublin Simon Community and ASH Rescue.</p>
-              <p>If we have 100 attendees and everyone donates at least €35, we can make a difference this year with €3500 ... thats a lot of help ...</p>
-              <p><strong>PS: AS an incentive, we have some VERY cool kit to raffle (Shiney MR headsets anyone?!) - donate and your name will be in the hat!!!!</strong></p>
-              <p class="text-center">Click now register and please dig deep and donate as much as you can !!!</p>
-              <a target="_blank" href="https://www.eventbrite.com/e/azure-ai-bootcamp-dublin-tickets-52992215142"><input
-                type="submit"
-                value="REGISTER ME NOW!"
-                name="subscribe"
-                id="mc-embedded-subscribe"
-                class="btn btn-primary col-12"
-              /></a>
-              <div class="d-flex justify-content-center col-12 pt-3">
-                <a href="https://www.dubsimon.ie/" target="_blank">Dubsimon.com</a>
-              </div>
-              <div class="d-flex justify-content-center col-12">
-                <a href="http://www.ashanimalrescue.com/ash/" target="_blank">Ashanimalrescue.com</a>
-              </div>
-              
-              
-              <!-- <form
-                action="https://azurebootcampdublin.us19.list-manage.com/subscribe/post-json?u=d73da6ae5d912d094b151767d&amp;id=3ebe5f5567&c=?"
-                method="get"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                class="validate"
-              >
-                <div class="form-group row">
-                  <label for="mce-NAME" class="col-sm-3 col-form-label"
-                    >Name</label
-                  >
-                  <div class="col-sm-9">
-                    <input
-                      type="text"
-                      value=""
-                      name="NAME"
-                      class="form-control"
-                      id="mce-NAME"
-                      placeholder="Your name"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="mce-EMAIL" class="col-sm-3 col-form-label"
-                    >Email</label
-                  >
-                  <div class="col-sm-9">
-                    <input
-                      name="EMAIL"
-                      type="email"
-                      class="form-control"
-                      id="mce-EMAIL"
-                      placeholder="Your Email"
-                      value=""
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="mce-NAME" class="col-sm-3 col-form-label"
-                    >Twitter</label
-                  >
-                  <div class="col-sm-9">
-                    <input
-                      type="text"
-                      value=""
-                      name="TWITTER"
-                      class="form-control"
-                      id="mce-NAME"
-                      placeholder="@twitter"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value="1"
-                      id="mce-group[1439]-1439-0"
-                      name="group[1439][1]"
-                    />
-                    <label
-                      class="form-check-label"
-                      for="mce-group[1439]-1439-0"
-                    >
-                      I would like to know about other events
-                    </label>
-                    <div class="invalid-feedback"></div>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value="2"
-                      id="mce-group[1443]-1443-0"
-                      name="group[1443][2]"
-                    />
-                    <label
-                      class="form-check-label"
-                      for="mce-group[1443]-1443-0"
-                    >
-                      Share my email address and name with Microsoft to be
-                      informed of events
-                    </label>
-                    <div class="invalid-feedback"></div>
-                  </div>
-                </div>
-
-                <div
-                  style="position: absolute; left: -5000px;"
-                  aria-hidden="true"
-                >
-                  <input
-                    type="text"
-                    name="b_e44c1f194bec93e238615469e_f6f826e769"
-                    tabindex="-1"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="subscribe form-group row justify-content-center animated pulse slower"
-                >
-                  <input
-                    type="submit"
-                    value="subscribe"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
-                    class="btn btn-primary col-lg-6 col-10"
-                  />
-                </div>
-                <div id="subscribe-result"></div>
-              </form> -->
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     <section class="fun_games" id="fun_games">
       <div class="container">
         <div class="row">
